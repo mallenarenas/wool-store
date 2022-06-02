@@ -28,6 +28,7 @@ main{
     background-color: #ff77a9;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .pagination {
     display: flex;
@@ -54,6 +55,7 @@ footer{
     "sort"
     "main"
     "footer";
+    grid-template-rows: 10% 10% 65% 15%;
     min-height: 100vh;
 }
 .card-1 img{
@@ -89,6 +91,7 @@ footer{
         "menu menu"
         "sort main"
         "footer footer";
+        grid-template-rows: 10% 75% 15%;
     }
     .card-1{
         width: 45%;
