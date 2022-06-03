@@ -91,7 +91,7 @@ footer{
         "menu menu"
         "sort main"
         "footer footer";
-        grid-template-rows: 10% 75% 15%;
+        grid-template-rows: 10% 70% 20%;
     }
     .card-1{
         width: 45%;
